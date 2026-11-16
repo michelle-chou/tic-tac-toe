@@ -1,0 +1,27 @@
+# Web framework and server (`flask run`)
+Flask==3.1.3
+# Request routing and the development server; used directly by lib/
+Werkzeug==3.1.9
+# Command line tasks (`flask db ...`); used directly by lib/tasks
+click==8.5.1
+# Handles Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
+flask-cors==6.0.5
+# Reads config/database.yml
+PyYAML==6.0.3
+
+# development, test
+pytest==9.2.0
+factory_boy==3.3.3
+Faker==40.54.0
+
+# What the packages above depend on, pinned so that every install resolves to the same set
+blinker==1.9.0
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.4
+iniconfig==2.3.1
+packaging==26.3
+pluggy==1.7.0
+Pygments==2.21.0
+tzdata==2026.6
+colorama==0.4.6; sys_platform == "win32"

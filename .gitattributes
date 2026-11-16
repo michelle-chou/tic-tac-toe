@@ -1,0 +1,3 @@
+# The entrypoint scripts run inside the Linux container, also when the repository
+# was checked out on Windows: keep their line endings as LF.
+*.sh text eol=lf
